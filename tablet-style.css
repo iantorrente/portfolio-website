@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1366px) and (min-width: 415px) {
+  body {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.699);
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+    width: 100%;
+  }
+
+  header p {
+    font-size: 22px;
+  }
+
+  header h1 {
+    font-size: 65px;
+    margin-bottom: 0;
+  }
+
+  header h4 {
+    color: rgb(150, 0, 0);
+    font-size: 25px;
+    margin-top: 1%;
+  }
+
+  nav {
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    height: 5%;
+    width: 100%;
+  }
+
+  nav a {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 0;
+  }
+
+  section h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(150, 0, 0);
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+  }
+
+  #bio {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://previews.123rf.com/images/lenikovaleva/lenikovaleva1408/lenikovaleva140800015/30681592-trunks-birch-trees-black-and-white.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    min-height: 550px;
+    width: 100%;
+  }
+
+  #bio p {
+    font-size: 22px;
+    line-height: 1.5;
+    background-color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: left;
+    width: 85%;
+  }
+
+  #projects {
+    padding-top: 5%;
+    padding-bottom: 8%;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #projects hr {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+  }
+
+  .project-item {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-description h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .project-description {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4%;
+    float: none;
+    width: 95%;
+  }
+
+  .project-description-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.35;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 85%;
+  }
+
+  .project-description-text p {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .project-repo-link {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .project-repo-link img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .image-container {
+    float: none;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+  }
+
+  .image-container img {
+    position: relative;
+    width: 100%;
+  }
+
+  .top-image {
+    display: none;
+  }
+
+  .technologies-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 4px;
+    height: 40px;
+    width: 150px;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/contact-section-bg.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    width: 100%;
+  }
+
+  .contact-info {
+    background-color: white;
+    font-size: 22px;
+    line-height: 1.35;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 75%;
+  }
+
+  .contact-info img {
+    margin-top: 5%;
+    margin-right: 3%;
+  }
+
+  .contact-info h3 {
+    font-size: 28px;
+  }
+
+  footer {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+  }
+}
